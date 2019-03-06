@@ -71,7 +71,6 @@ var genepiList = {};
 // send jsonRPC request to jeedom
 async function jeedomAPI(method, params={}) {
   try {
-    console.info('jeedonAPI - Method: %s - params: %j', method, params);
     //adding apikey
     params.apikey=args.apikey;
 
@@ -189,8 +188,6 @@ const rpcMethod = {
 
   // send request to genepi node
   'send': async (params) => {
-    console.info('Send request with params : %j', params);
-
     if (typeof(params.node) !== 'undefined') {
       // getting genepi node
       let node = params.node;
@@ -200,7 +197,7 @@ const rpcMethod = {
         try {
           let result = await genepiList[node].call('send', params);
 
-          console.info('Send response: %j', result);
+          console.info(' Send response: %j', result);
           return result;
 
         } catch (error) {
