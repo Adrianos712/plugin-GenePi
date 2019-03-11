@@ -35,4 +35,3 @@ if ($jsonrpc->getMethod() == 'notif') {
 }
 
 throw new Exception(__('Aucune methode correspondante pour le plugin genepi : ' . $jsonrpc->getMethod(), __FILE__));
-?>

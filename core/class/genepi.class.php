@@ -522,5 +522,3 @@ class genepiCmd extends cmd {
 
     /*     * **********************Getteur Setteur*************************** */
 }
-
-?>

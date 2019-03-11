@@ -22,5 +22,4 @@ require_once dirname(__FILE__) . '/../../../../core/php/core.inc.php';
  * plugin des librairies externes (ne pas oublier d'adapter plugin_info/info.xml).
  * 
  * 
- */
-?>
+*/

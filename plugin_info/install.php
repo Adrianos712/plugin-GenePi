@@ -31,5 +31,3 @@ function genepi_update() {
 function genepi_remove() {
 
 }
-
-?>
