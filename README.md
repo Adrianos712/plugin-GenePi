@@ -1,1 +1,1 @@
-# jeedom-genepi
+# plugin-GenePi

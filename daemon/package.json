@@ -1,5 +1,5 @@
 {
-  "name": "jeedom-genepi-daemon",
+  "name": "plugin-GenePi-daemon",
   "version": "1.0.0",
   "description": "Genepi Daemon for Jeedom plugin",
   "main": "client.js",
@@ -11,18 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cabalou/jeedom-genepi.git"
+    "url": "git+https://github.com/adrianos712/plugin-GenePi.git"
   },
   "keywords": [
     "Jeedom",
     "Genepi"
   ],
-  "author": "Adrien Caillard",
+  "author": "Adrianos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cabalou/jeedom-genepi/issues"
+    "url": "https://github.com/adrianos712/plugin-GenePi/issues"
   },
-  "homepage": "https://github.com/cabalou/jeedom-genepi#readme",
+  "homepage": "https://github.com/adrianos712/plugin-GenePi#readme",
   "dependencies": {
     "argparse": "^1.0.10",
     "body": "^5.1.0",
